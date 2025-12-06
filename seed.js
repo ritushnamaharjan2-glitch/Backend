@@ -12,7 +12,8 @@ const lessons = [
   },
   { 
     subject: "Physics", location: "Chicago", price: 45, space: 8, tutor: "Jane Smith", rating: 4.8, book: "The Quantum World",
-    image: "Physics.jpeg"
+    image:  "image/physics.jpeg"
+
   },
   { 
     subject: "Chemistry", location: "Los Angeles", price: 40, space: 12, tutor: "Dr. Albert", rating: 4.2, book: "Organic Basics",
