@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 app.use(cors());
 app.use(express.json());
 
-// Static image 
+// Static image handler
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const imagesPath = path.join(__dirname, "images");
