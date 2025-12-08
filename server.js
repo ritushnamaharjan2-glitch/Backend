@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
   res.send("Backend is running !");
 });
 
-// 404 only for unmatched 
+// 404 only for unmatched routes
 app.use((req, res) => {
   res.status(404).json({ error: "Route not found" });
 });
