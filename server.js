@@ -20,7 +20,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// Basic middleware
 app.use(cors());
 app.use(express.json());
 
